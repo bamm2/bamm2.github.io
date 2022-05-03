@@ -63,21 +63,7 @@ img {
 .suffix {
     font-size:0.9rem;
 }
-.icon {
-    float: left;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3), 0 2px 0px rgba(255,255,255,0.4) inset, 0 -2px 0px rgba(0,0,0,0.5) inset;
-    border-radius: 15px;
-    transition: 0.2s ease-in-out;
-}
-.icon:hover {
-    transform: translate(0, -10px);
-}
+
 #daumRoughmapContainer1651489357767 {
     width:80%;
     max-width:640px;
