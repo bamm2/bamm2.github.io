@@ -73,6 +73,11 @@ img {
     text-align: center;
 }
 
+.insta .insta-img {
+    width: 30px;
+    height: 30px;
+
+}
 
 
 .live {
@@ -85,7 +90,6 @@ img {
 #daumRoughmapContainer1651489357767 {
     width:80%;
     max-width:640px;
-    align:center;
 }
 #parents {
     margin:2rem;
