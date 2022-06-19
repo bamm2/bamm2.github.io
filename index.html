@@ -16,6 +16,19 @@
   <body>
     <h1> ❤️ Ari ❤️ </h1>
 
+    <input id="night_day" type="button" value="night" onclick="
+    var changer = document.querySelector('body');
+    if(this.value==='night') {
+      changer.style.backgroundColor='black';
+      changer.style.color='white';
+      this.value ='day';
+    } else {
+      changer.style.backgroundColor='white';
+      changer.style.color='black';
+      this.value ='night';
+    }
+    ">
+
     <div id="grid">
             <li><a href="#one"> 업적 </a></li>
             <li><a href="#two"> 일시 및 장소 </a></li>
@@ -75,12 +88,12 @@
 
     <h2><a name="three">옹아리 사진 </a></h2>
       <div class="grid-container">
-        <img class=""grid-item" src="img1.jpeg">
-        <img class=""grid-item" src="img2.jpeg">
-        <img class=""grid-item" src="img3.jpeg">
-        <img class=""grid-item" src="img4.jpeg">
-        <img class=""grid-item" src="img5.jpeg">
-        <img class=""grid-item" src="img6.jpeg">
+        <img class="grid-item" src="img1.jpeg">
+        <img class="grid-item" src="img2.jpeg">
+        <img class="grid-item" src="img3.jpeg">
+        <img class="grid-item" src="img4.jpeg">
+        <img class="grid-item" src="img5.jpeg">
+        <img class="grid-item" src="img6.jpeg">
       </div>
     <br>
 
